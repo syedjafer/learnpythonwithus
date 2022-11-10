@@ -140,3 +140,100 @@ list.insert(index, value)
 
 
 Insert an item at a given position. The first argument is the index of the element before which to insert, so `a.insert(0, x)` inserts at the front of the list, and `a.insert(len(a), x)` is equivalent to `a.append(x)`.
+
+2. **append()**
+
+```python
+fruits = ["apple", "banana", "cherry"]  
+fruits.append("orange")  
+print(fruits)
+```
+
+**Equivalents:** 
+
+`a[len(a):] = [x]`.
+
+3. **extend()**
+
+```python
+fruits = ["apple", "banana", "cherry"]  
+fruits_fav = ["mango", "pineapple", "papaya"]  
+fruits.extend(fruits_fav)  
+print(fruits)
+```
+
+
+### Removing
+
+
+1. **remove()**
+ removes the first occurence 
+```python
+thislist = ["apple", "banana", "cherry"]  
+thislist.remove("banana")  
+print(thislist)
+```
+
+2. **pop()**
+The `pop()` method removes the specified index.
+
+```python
+fruits = ["apple", "banana", "cherry"]  
+fruits.pop(1)  
+print(fruits)
+```
+
+3. **del()**
+It removes the particular index; also the whole lists. 
+
+```python
+fruits = ["apple", "banana", "cherry"]  
+del fruits[0]  
+print(fruits)
+```
+
+4. **clear()**
+
+```python
+fruits = ["apple", "banana", "cherry"]  
+fruits.clear()  
+print(fruits)
+```
+
+### Sorting
+
+```python
+states = ['Tamil Nadu', 'Kerala', 'Andra', 'Telengana']
+states.sort()
+print(states)
+```
+
+reverse descending, 
+
+```python
+states = ['Tamil Nadu', 'Kerala', 'Andra', 'Telengana']
+states.sort(reverse=True)
+print(states)
+```
+
+case sensitive, 
+
+```python
+states = ['Tamil Nadu', 'Kerala', 'Andra', 'Telengana']
+states.reverse()
+print(states)
+```
+
+
+### Copy
+
+Need of Copy
+
+```python
+states = ['Tamil Nadu', 'Kerala', 'Andra', 'Telengana']
+copied_states = states.copy()
+print(copied_states)
+```
+
+or list(states)
+
