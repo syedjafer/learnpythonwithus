@@ -33,7 +33,7 @@ Types of Data Structures
 
 #### Built In :
 
-As the name suggests, these Data Structures are built-in with [Python which makes programming easier](https://www.edureka.co/blog/python-basics/) and helps programmers use them to obtain solutions faster.
+As the name suggests, these Data Structures are built-in with Python which makes programming easier and helps programmers use them to obtain solutions faster.
 
 1. List
 2. Set
